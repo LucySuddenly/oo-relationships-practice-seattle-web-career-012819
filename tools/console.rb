@@ -51,7 +51,28 @@ end
 # i9 = Ingredient.new(rand(100..1000), d4, "water")
 # i10 = Ingredient.new(rand(100..1000), d5, "egg")
 
+a1 = Actor.new("Ted")
+a2 = Actor.new("Alton")
+a3 = Actor.new("Nancy")
+a4 = Actor.new("Serena")
+a5 = Actor.new("Meryl")
+a6 = Actor.new("Eugene")
 
+m1 = Movie.new("The people")
+m2 = Movie.new("The reckoning")
 
+s4 = Show.new("The reckoning")
+s5 = Show.new("The hangar")
+s6 = Show.new("The list")
+
+c1 = Character.new(m1, a1, "Terrance")
+c2 = Character.new(m1, a2, "Fellow")
+c3 = Character.new(m2, a3, "Friend")
+c4 = Character.new(m1, a4, "Buddy")
+c5 = Character.new(s6, a5, "Companion")
+c6 = Character.new(s4, a6, "Person")
+c7 = Character.new(s5, a1, "Character")
+c8 = Character.new(s6, a2, "Fire Fighter")
+c9 = Character.new(s6, a3, "Medic")
 
 Pry.start
